@@ -7,8 +7,7 @@ struct TodoScreen: View {
     @State private var newTodoText = ""
 
     private var remainingCount: Int {
-        // LAB 4: reemplaza este valor por el número de tareas no completadas.
-        0
+        todos.filter { !$0.isDone }.count
     }
 
     var body: some View {
