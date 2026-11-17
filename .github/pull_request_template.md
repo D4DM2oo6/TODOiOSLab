@@ -9,6 +9,7 @@ Nombre o alias visible en la app:
 
 ## Evidencia
 
+(aqui deberia estar la imagen que si subi cuando se hizo este codelab en el laboratorio pero al parecer no se guardaron los cambios de casi nada)
 Arrastra aquí una captura del simulador o de tu iPhone con tu nombre/alias visible, al menos dos tareas y una completada. Espera a que GitHub termine de subirla y comprueba la vista previa.
 
 ## Verificación
@@ -23,7 +24,9 @@ Arrastra aquí una captura del simulador o de tu iPhone con tu nombre/alias visi
 
 ## Lo que aprendí
 
-En dos o tres frases: ¿para qué sirven `@State` y `$newTodoText`? ¿Qué diferencia hay entre un commit y un push?
+@State guarda el estado de la vista, como la lista de tareas y el texto de una nueva tarea, y permite que la interfaz se actualice cuando esos valores cambian. $newTodoText conecta el campo de texto con la variable newTodoText en ambos sentidos: lo que escribes actualiza la variable y los cambios en la variable se reflejan en el campo.
+
+Un commit registra los cambios en el historial del repositorio local, mientras que un push envía los commits locales al repositorio remoto, como GitHub.
 
 ## Reto opcional
 
